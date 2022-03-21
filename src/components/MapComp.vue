@@ -20,7 +20,7 @@ import { setCurrent, setLoc } from "@/stores/store";
 import { emitter } from "@/event";
 
 window.mapboxgl.accessToken =
-  "pk.eyJ1IjoiYW50aG9ueWZ1MTE3IiwiYSI6ImNrZGJxa3U2MTB1ZjgycXJ4eWQ5N3cxN3cifQ.Vz_GndQJpG6ybjFc-MJaCw";
+  "pk.eyJ1IjoibGFuc2VyaWEiLCJhIjoiY2wxMGo5ZWk3MTF3dTNkcnRwcDMyMXowOSJ9.kxLDvTThtaU0uiBOXanNvA";
 
 function createColorPoint(...color: number[]) {
   const d = 48;
@@ -82,12 +82,12 @@ watch(
 onMounted(() => {
   window.map = map = new window.mapboxgl.Map({
     container: mapContainer.value,
-    style: "mapbox://styles/anthonyfu117/cjygtd7sr07dq1cqibnpqvq4w",
+    style: "mapbox://styles/lanseria/cl10jowpd006m15odyj4d5d9j",
     center: props.data.center,
     zoom: SCALE,
   });
 
-  map.addControl(new window.MapboxLanguage({ defaultLanguage: "zh" }));
+  map.addControl(new window.MapboxLanguage({ defaultLanguage: "zh-Hans" }));
 
   map.on("load", () => {
     map.addImage("#50C240", createColorPoint(80, 194, 64, 255));
