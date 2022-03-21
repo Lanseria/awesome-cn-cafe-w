@@ -7,6 +7,7 @@ import raw from "@/data.json";
 export const rawData = Object.freeze(raw);
 export const geo = Object.freeze({
   type: "FeatureCollection",
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   features: Object.values(rawData).flatMap((i) => i.data.features as any[]),
 });
 export const shops = Object.freeze(

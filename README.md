@@ -1,6 +1,16 @@
-# awesome-cn-cafe-w
+# awesome-cn-cafe-web
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align='center'>
+数据来自 <a href='https://github.com/Lanseria/awesome-cn-cafe'>Awesome CN Café</a>
+</p>
+
+<p align='center'>
+当然 fork 来自 <a href='https://github.com/ElaWorkshop/awesome-cn-cafe'>Awesome CN Café</a>
+</p>
+
+<p align='center'>
+<a href='https://cafe-cn.netlify.app'/>👉 Goto App</a>
+</p>
 
 ## Recommended IDE Setup
 

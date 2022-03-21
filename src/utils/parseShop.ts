@@ -21,7 +21,7 @@ export const parseShop = (shop: CafeShop) => {
     name: properties["名称"],
     speed: properties["下载速度"],
     speedtest: properties["Speedtest 链接"],
-    referrers: properties.referrers as any as string[],
+    referrers: properties.referrers as unknown as string[],
     location1,
     location2,
     table,

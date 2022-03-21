@@ -1,4 +1,5 @@
 src/data.json
+src/build.ts
 
 # Logs
 logs
