@@ -4,6 +4,8 @@ import MapComp from "@/components/MapComp.vue";
 import FloatControl from "@/components/FloatControl.vue";
 import ModalComp from "@/components/ModalComp.vue";
 import DetailComp from "@/components/DetailComp.vue";
+import SearchComp from "@/components/SearchComp.vue";
+import AboutComp from "@/components/AboutComp.vue";
 import {
   city,
   data,
@@ -35,6 +37,12 @@ import {
     <FloatControl />
     <ModalComp :value="!!current" :setValue="() => setCurrent(null)">
       <DetailComp v-if="current" :shop="current"></DetailComp>
+    </ModalComp>
+    <ModalComp :value="about" :setValue="() => setAbout(false)">
+      <AboutComp />
+    </ModalComp>
+    <ModalComp :value="searchOpen" :setValue="() => setSearchOpen(false)">
+      <SearchComp />
     </ModalComp>
   </div>
 </template>
