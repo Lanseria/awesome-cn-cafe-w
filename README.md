@@ -16,6 +16,10 @@ fork 来自 <a href='https://github.com/ElaWorkshop/awesome-cn-cafe'>Awesome CN 
 fork 来自 <a href='https://github.com/antfu/awesome-cn-cafe-web'>Awesome CN Café Web</a>
 </p>
 
+思维导图
+
+https://enjqkboeqf.feishu.cn/mindnotes/bmncnInibWH7NRiW2ddlmTbzzrg
+
 ## 功能
 
 - 分享网速良好的咖啡屋
