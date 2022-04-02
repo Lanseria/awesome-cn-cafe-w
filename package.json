@@ -13,13 +13,13 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
-    "@vueuse/core": "^8.2.1",
+    "@vueuse/core": "^8.2.3",
     "emitt": "^1.3.4",
     "fuse.js": "^6.5.3",
     "vue": "^3.2.31"
   },
   "devDependencies": {
-    "@iconify/vue": "^3.2.0",
+    "@iconify/vue": "^3.2.1",
     "@rushstack/eslint-patch": "^1.1.1",
     "@types/jsdom": "^16.2.14",
     "@types/node": "^16.11.26",
@@ -38,7 +38,7 @@
     "prettier": "^2.6.1",
     "tailwindcss": "^3.0.23",
     "typescript": "~4.5.5",
-    "vite": "^2.9.0",
+    "vite": "^2.9.1",
     "vitest": "^0.5.9",
     "vue-tsc": "^0.31.4"
   }

@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@iconify/vue': ^3.2.0
+  '@iconify/vue': ^3.2.1
   '@rushstack/eslint-patch': ^1.1.1
   '@types/jsdom': ^16.2.14
   '@types/node': ^16.11.26
@@ -11,7 +11,7 @@ specifiers:
   '@vue/eslint-config-typescript': ^10.0.0
   '@vue/test-utils': ^2.0.0-rc.18
   '@vue/tsconfig': ^0.1.3
-  '@vueuse/core': ^8.2.1
+  '@vueuse/core': ^8.2.3
   autoprefixer: ^10.4.4
   emitt: ^1.3.4
   eslint: ^8.12.0
@@ -23,23 +23,23 @@ specifiers:
   prettier: ^2.6.1
   tailwindcss: ^3.0.23
   typescript: ~4.5.5
-  vite: ^2.9.0
+  vite: ^2.9.1
   vitest: ^0.5.9
   vue: ^3.2.31
   vue-tsc: ^0.31.4
 
 dependencies:
-  '@vueuse/core': 8.2.1_vue@3.2.31
+  '@vueuse/core': 8.2.3_vue@3.2.31
   emitt: 1.3.4
   fuse.js: 6.5.3
   vue: 3.2.31
 
 devDependencies:
-  '@iconify/vue': 3.2.0_vue@3.2.31
+  '@iconify/vue': 3.2.1_vue@3.2.31
   '@rushstack/eslint-patch': 1.1.1
   '@types/jsdom': 16.2.14
   '@types/node': 16.11.26
-  '@vitejs/plugin-vue': 2.3.1_vite@2.9.0+vue@3.2.31
+  '@vitejs/plugin-vue': 2.3.1_vite@2.9.1+vue@3.2.31
   '@vitejs/plugin-vue-jsx': 1.3.9
   '@vue/eslint-config-prettier': 7.0.0_eslint@8.12.0+prettier@2.6.1
   '@vue/eslint-config-typescript': 10.0.0_12acf70a972713d732433d1dac9f7809
@@ -54,7 +54,7 @@ devDependencies:
   prettier: 2.6.1
   tailwindcss: 3.0.23_autoprefixer@10.4.4
   typescript: 4.5.5
-  vite: 2.9.0
+  vite: 2.9.1
   vitest: 0.5.9_jsdom@19.0.0
   vue-tsc: 0.31.4_typescript@4.5.5
 
@@ -409,8 +409,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify/vue/3.2.0_vue@3.2.31:
-    resolution: {integrity: sha512-sBWkef1Pp3vjDfU92UjTnvN9BsJ5o4TVdIN8+Yx+TGEwLcujty7/vq1m9FhJ9D8/ZTAN2MttKojj80s6j4FqGg==}
+  /@iconify/vue/3.2.1_vue@3.2.31:
+    resolution: {integrity: sha512-c4R6ZgFo1JrJ8aPMMgOPgfU7lBswihMGR+yWe/P4ZukC3kTkeT4+lkt9Pc/itVFMkwva/S/7u9YofmYv57fnNQ==}
     peerDependencies:
       vue: 3.x
     dependencies:
@@ -649,14 +649,14 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/2.3.1_vite@2.9.0+vue@3.2.31:
+  /@vitejs/plugin-vue/2.3.1_vite@2.9.1+vue@3.2.31:
     resolution: {integrity: sha512-YNzBt8+jt6bSwpt7LP890U1UcTOIZZxfpE5WOJ638PNxSEKOqAi0+FSKS0nVeukfdZ0Ai/H7AFd6k3hayfGZqQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.0
+      vite: 2.9.1
       vue: 3.2.31
     dev: true
 
@@ -870,8 +870,8 @@ packages:
       '@types/node': 16.11.26
     dev: true
 
-  /@vueuse/core/8.2.1_vue@3.2.31:
-    resolution: {integrity: sha512-vsci465GXLykmEzVc8gNgVZoF9G+WEVXu7AM+6hgga2SgZQE1CSCnSFN5ZCIQUEd0SGHxpvw3Q0NkddJbCya7w==}
+  /@vueuse/core/8.2.3_vue@3.2.31:
+    resolution: {integrity: sha512-bz6XroFRFOIGzhAHcnTfjtAQNkNcSELKPoSSUGROwYfOgTnaVyq7iKhgwdeRNom3y9q+a60RlhD35oJaGsXDHA==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -881,18 +881,18 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vueuse/metadata': 8.2.1
-      '@vueuse/shared': 8.2.1_vue@3.2.31
+      '@vueuse/metadata': 8.2.3
+      '@vueuse/shared': 8.2.3_vue@3.2.31
       vue: 3.2.31
       vue-demi: 0.12.5_vue@3.2.31
     dev: false
 
-  /@vueuse/metadata/8.2.1:
-    resolution: {integrity: sha512-t4EGSzUWzYADC1J3VAviwyolS/NiYiBiJ58PObsZ9X/OV5OWzXEFSvxAV7J50M2DgLNWQf2Wgbepyshl5KyrFQ==}
+  /@vueuse/metadata/8.2.3:
+    resolution: {integrity: sha512-xH5256Bn6hBYvQWoaCBagpeCrzJmeEeWnyDDkwVFhx7+pLOe4I6gsMHie3yJoowK9AN/D7JLTtEBbWvvBi5TOA==}
     dev: false
 
-  /@vueuse/shared/8.2.1_vue@3.2.31:
-    resolution: {integrity: sha512-esnLayEO/H0t6NG35tJDNJYZq+dFEdlBA7uTDv3NoIK+rqQIuegP95cNRDolAiUc7fA48OqVOA1RF+KnK/JORA==}
+  /@vueuse/shared/8.2.3_vue@3.2.31:
+    resolution: {integrity: sha512-4Cd3s+x8ZwzzAf7o8jS7mEj9pQ1Zsf9aiNBAFg4rHcWeDY0S3XMgvN4ae2hBul7jmi+Ab4REAqiqYWyYqU86qg==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
@@ -1032,7 +1032,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.20.2
-      caniuse-lite: 1.0.30001322
+      caniuse-lite: 1.0.30001323
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1079,7 +1079,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001322
+      caniuse-lite: 1.0.30001323
       electron-to-chromium: 1.4.103
       escalade: 3.1.1
       node-releases: 2.0.2
@@ -1108,8 +1108,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001322:
-    resolution: {integrity: sha512-neRmrmIrCGuMnxGSoh+x7zYtQFFgnSY2jaomjU56sCkTA6JINqQrxutF459JpWcWRajvoyn95sOXq4Pqrnyjew==}
+  /caniuse-lite/1.0.30001323:
+    resolution: {integrity: sha512-e4BF2RlCVELKx8+RmklSEIVub1TWrmdhvA5kEUueummz1XyySW0DVk+3x9HyhU9MuWTa2BhqLgEuEmUwASAdCA==}
     dev: true
 
   /chai/4.3.6:
@@ -2947,8 +2947,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vite/2.9.0:
-    resolution: {integrity: sha512-5NAnNqzPmZzJvrswZGeTS2JHrBGIzIWJA2hBTTMYuoBVEMh0xwE0b5yyIXFxf7F07hrK4ugX2LJ7q6t7iIbd4Q==}
+  /vite/2.9.1:
+    resolution: {integrity: sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -2997,7 +2997,7 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.1.2
       tinyspy: 0.3.0
-      vite: 2.9.0
+      vite: 2.9.1
     transitivePeerDependencies:
       - less
       - sass
@@ -3009,8 +3009,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /vscode-css-languageservice/5.3.0:
-    resolution: {integrity: sha512-ujWW855AoJlE4ETU17Gff7unlZZTHDA0w26itk9EQFMfJqi9lE6S67zOsMvcPmJf55MrnGQbojDYZRiDVaFjdA==}
+  /vscode-css-languageservice/5.4.1:
+    resolution: {integrity: sha512-W7D3GKFXf97ReAaU4EZ2nxVO1kQhztbycJgc1b/Ipr0h8zYWr88BADmrXu02z+lsCS84D7Sr4hoUzDKeaFn2Kg==}
     dependencies:
       vscode-languageserver-textdocument: 1.0.4
       vscode-languageserver-types: 3.16.0
@@ -3113,7 +3113,7 @@ packages:
       '@vue/reactivity': 3.2.31
       '@vue/shared': 3.2.31
       upath: 2.0.1
-      vscode-css-languageservice: 5.3.0
+      vscode-css-languageservice: 5.4.1
       vscode-html-languageservice: 4.2.4
       vscode-json-languageservice: 4.2.1
       vscode-languageserver-protocol: 3.17.0-next.16
